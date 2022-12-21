@@ -1,0 +1,81 @@
+body {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+#btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.playButtons {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 150px;
+    font-size: 30px;
+    background-color: #222222;
+    color:greenyellow;
+    border: 2px solid greenyellow;
+    border-radius: 8px;
+}
+.newG {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+#newGame {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 200px;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: #ffa600;
+    color:black;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+#newGame:active {
+    transform: translateY(4px);
+}
+
+
+.playButtons:active {
+    transform: translateY(4px);
+  }
+
+.playButtons:hover {
+    background-color: #555555; /* Green */
+    color: yellowgreen;
+}
+#newGame:hover{
+    background-color: rgb(255,120,0);
+}
+
+#winner {
+    color:yellowgreen;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#roundPoints{
+    font-size: 15px;
+    color: yellowgreen;
+}
